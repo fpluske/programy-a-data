@@ -1,5 +1,3 @@
-/* Globální nastavení pro celý dokument */
-
 div {
     background-color: darkgrey;
     border-radius: 20px;
@@ -15,7 +13,7 @@ body {
     line-height: 130%; /* Zvětší výšku řádku pro lepší čitelnost */
     background-size: cover;
  }
- 
+
  /* Nastavení pro hlavní část stránky */
  main {
      width: 1200px; /* Šířka hlavního obsahu */
@@ -70,31 +68,4 @@ body {
      border-bottom: 1px dotted #333; /* Čárkované spodní ohraničení */
      font-size: 1.2em; /* Zvýšená velikost písma */
      margin-top: 20px; /* Horní okraj pro oddělení od předchozího obsahu */
- }
- 
- /* Efekt přejetí myší pro odkazy */
- a:hover {
-     background-color: bisque; /* Světlé pozadí při najetí myší */
-     text-decoration: underline; /* Přidá podtržení textu při najetí myší */
- }
- 
- /* Speciální styl pro prvek <code> a <mark> */
- code, mark {
-     font-family: 'Courier New', Courier, monospace; /* Písmo s pevnou šířkou znaků */
- }
- 
- /* Nastavení pro zvýrazněný text (element <mark>) */
- mark {
-     padding: 0 5px; /* Vnitřní odsazení textu */
-     background-color: #721717; /* Tmavě červené pozadí */
-     color: white; /* Bílý text pro kontrast */
- }
-
- 
- /* Media query pro úpravu layoutu na menších obrazovkách */
- @media screen and (max-width: 1200px) {
-     main {
-         width: 90%; /* Hlavní obsah zabere 90% šířky */
-         margin: 0 auto; /* Vycentrování hlavního obsahu */
-     }    
  }
